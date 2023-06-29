@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'HL7 FHIR Compatible',
+    title: 'HL7 FHIR Ready',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>

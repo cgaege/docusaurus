@@ -102,7 +102,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Company',
             items: [
               {
                 label: 'Stack Overflow',
@@ -119,10 +119,14 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Social Media',
             items: [
               {
-                label: 'Blog',
+                label: 'LinkedIn',
+                to: '/blog',
+              },
+              {
+                label: 'Youtube',
                 to: '/blog',
               },
               {
@@ -132,7 +136,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Dummy Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
