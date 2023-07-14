@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'API Documentation',
-  tagline: 'Get started with Healthcare NLP in no time',
+  title: 'Unleash the Potential of Your Medical Text Data',
+  tagline: 'Extract relevant information from unstructured text and get insights using the Averbis Healthcare NLP',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -74,7 +74,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'API',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
