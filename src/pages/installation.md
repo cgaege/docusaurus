@@ -32,6 +32,9 @@ Login to the Averbis docker registry using your Averbis credentials to pull Dock
 ```bash
 sudo docker login registry.averbis.com
 ```
+
+After successful login you should see something like this:
+
 ```bash
 Username: me@example.com
 Password: ***********

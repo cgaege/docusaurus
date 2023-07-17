@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Fast Track 10 minutes
 
-
+## Installation
 
 ## Getting Started
 
