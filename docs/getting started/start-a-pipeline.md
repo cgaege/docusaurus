@@ -1,64 +1,51 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Start an NLP Pipeline
 
-Health Discovery includes various preconfigured NLP pipelines for typical medical use cases.
+Health Discovery includes various preconfigured NLP pipelines for typical medical use cases. Pipelines are bound to a project.
 
-## Discharge Pipeline
 
-## Pathology Pipeline
-
-Request
-
-```js
-curl -X POST 
-"http://localhost:8080/information-discovery/rest/v1/projects?description=Some%20meaningful%20project%20description&name=NewProject" 
--H "accept: application/json;charset=UTF-8" 
--H "api-token: 1746847c8798c4eada1008eab95efc56b9acaef1ee1505ed6a0deb6ec0a90914"
+## Start the `discharge` Pipeline
+```bash title="PUT /v1/textanalysis/projects/{projectName}/pipelines/{pipelineName}/start" showLineNumbers
+curl -X PUT "http://localhost:8080/health-discovery/rest/v1/textanalysis/projects/YOUR-PROJECT/pipelines/discharge/start" \
+-H "accept: */*" \
+-H "api-token: YOUR-API-TOKEN"
 ```
 
-Response
-
-```js
+```js title=RESPONSE
 {
-  "payload": {
-    "id": 1009,
-    "name": "NewProject",
-    "description": "Some meaningful project description"
-  },
+  "payload": null,
   "errorMessages": []
 }
 ```
 
+Starting a pipeline may take some time. You can verify that the pipeline has been started.
 
-:::note
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+## Verify Pipeline State
 
-:::
 
-:::tip
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+```bash title="GET /v1/textanalysis/project/{projectName}/pipelines/{pipelineName}"
+curl -X GET "http://localhost:8080/health-discovery/rest/v1/textanalysis/projects/YOUR-PROJECT/pipelines/discharge" 
+-H "accept: */*" 
+-H "api-token: YOUR-API-TOKEN"
+```
 
-:::
-
-:::info
-
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
-
-:::
-
-:::caution
-
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
-
-:::
-
-:::danger
-
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
-
-:::
+```js title=RESPONSE
+{
+  "payload": {
+    "id": 97025364,
+    "identifier": "K4HbNiCSFRegoHs_gvJU7YvAwMw=",
+    "name": "discharge",
+    "description": "no description",
+    "pipelineState": "STARTED",
+    "pipelineStateMessage": null,
+    "preconfigured": true
+  },
+  "errorMessages": []
+}
+```
+ The pipelineState `STARTED` indicates that the pipeline has been started successfully and is now ready to analyse text.

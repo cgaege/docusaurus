@@ -10,7 +10,7 @@ The product uses `projects` to separate different data, configurations and users
 
 Request
 
-```js
+```bash
 curl -X POST 
 "http://localhost:8080/information-discovery/rest/v1/projects?description=Some%20meaningful%20project%20description&name=NewProject" 
 -H "accept: application/json;charset=UTF-8" 

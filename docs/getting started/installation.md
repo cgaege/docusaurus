@@ -1,10 +1,9 @@
 ---
-title: Installation
-description: Install Health Discovery using Docker
-hide_table_of_contents: true
+sidebar_position: 1
 ---
 
-# Docker Deployment
+
+# Installation
 
 Installing Health Discovery using Docker is the easiest and fastest way to get started.
 
@@ -50,10 +49,19 @@ Averbis provides a `docker-compose.yml` file for every version of Health Discove
 
 Can we provide a convenient download link for the latest and greatest version of `docker-compose.yml`?
 
+
 :::
 
+```bash
+curl https://files.averbis.com/health-discovery/docker-compose.yml
+```
 
 
+### Start Health Discovery
+
+## Post-Installation Steps
+
+### Set administrator password
 
 
 :::tip
