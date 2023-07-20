@@ -14,14 +14,19 @@ curl -X PUT "http://localhost:8080/health-discovery/rest/v1/textanalysis/project
 -H "api-token: YOUR-API-TOKEN"
 ```
 
-```js title=RESPONSE
+<details>
+  <summary>RESPONSE</summary>
+
+```js
 {
   "payload": null,
   "errorMessages": []
 }
-```
 
-Starting a pipeline may take some time. You can verify that the pipeline has been started.
+```
+</details>
+
+Starting a pipeline may take some time. You can use the `GET` method on the pipeline endpoint to verify that the pipeline has been started.
 
 
 ## Verify Pipeline State
