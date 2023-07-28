@@ -20,3 +20,9 @@ curl -X POST "http://localhost:8080/health-discovery/rest/v1/users/YOUR-USER/api
   "errorMessages": []
 }
 ```
+
+:::tip
+
+Please make sure to copy your API token now and store it safely. You will not be able to see it again.
+
+:::
