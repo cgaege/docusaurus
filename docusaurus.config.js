@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Unleash the Potential of Your Medical Text Data',
-  tagline: 'Extract relevant information from unstructured text and get insights using the Averbis Healthcare NLP',
+  title: 'Unleash the Potential of Health Data',
+  tagline: 'Extract relevant information and gain insights with Healthcare NLP',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -91,6 +91,11 @@ const config = {
           {
             href: 'https://github.com/cgaege/docusaurus',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://averbis.ai',
+            label: 'Averbis.ai',
             position: 'right',
           },
         ],

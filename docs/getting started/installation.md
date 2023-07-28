@@ -13,9 +13,7 @@ Installing Health Discovery using Docker is the easiest and fastest way to get s
 
 ## Prerequisites
 
-```bash
-sudo docker compose up -d
-```
+
 
 ## Installation Steps
 
@@ -46,11 +44,11 @@ Login Succeeded
 Averbis provides a `docker-compose.yml` file for every version of Health Discovery. It is used to configure and orchestrate the docker images that make up the Averbis Health Discovery  application. The docker-compose.yml file is packaged as an health-discovery-VERSION-docker.zip archive and can be downloaded from the Averbis Download Portal.
 
 :::note
-
 Can we provide a convenient download link for the latest and greatest version of `docker-compose.yml`?
-
-
 :::
+
+
+[docker-compose.yml](./../assets/docker-compose.yml)
 
 ```bash
 curl https://files.averbis.com/health-discovery/docker-compose.yml
@@ -59,21 +57,42 @@ curl https://files.averbis.com/health-discovery/docker-compose.yml
 
 ### Start Health Discovery
 
+Start the Health Discovery docker containers.
+
+```bash
+sudo docker compose up -d
+```
+
+Pulling the docker images and starteing the containers will take some time. You can monitor the progress using
+
+```bash
+sudo docker ps
+```
+
+It should look like this
+
+```js title=RESPONSE
+{
+  "payload": null,
+  "errorMessages": []
+}
+```
+
+
 ## Post-Installation Steps
 
 ### Set administrator password
 
+```bash title="PUT /v1/users/{userName}/changeMyPassword"
+curl -X PUT "http://localhost:8080/health-discovery/rest/v1/users/admin/changeMyPassword" 
+-H "accept: */*" 
+-H "Content-Type: application/json" 
+-d "{ \"oldPassword\": \"admin\", \"newPassword\": \"YOUR-PASSWORD\"}"
+```
 
-:::tip
-
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
-
-:::
-
-:::info
-
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
-
-:::
-
-‚
+```js title=RESPONSE
+{
+  "payload": null,
+  "errorMessages": []
+}
+```
