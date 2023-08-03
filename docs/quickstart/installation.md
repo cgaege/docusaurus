@@ -90,9 +90,9 @@ The initial password of the `admin` user is `admin`. Is is highly recommended to
 Set a secure password for the `admin` user.
 
 ```bash title="PUT /v1/users/{userName}/changeMyPassword"
-curl -X PUT "http://localhost:8080/health-discovery/rest/v1/users/admin/changeMyPassword" 
--H "accept: */*" 
--H "Content-Type: application/json" 
+curl -X PUT "http://localhost:8080/health-discovery/rest/v1/users/admin/changeMyPassword" \
+-H "accept: */*" \
+-H "Content-Type: application/json" \ 
 -d "{ \"oldPassword\": \"admin\", \"newPassword\": \"YOUR-PASSWORD\"}"
 ```
 

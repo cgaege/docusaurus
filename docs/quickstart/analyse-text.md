@@ -7,10 +7,10 @@ sidebar_position: 5
 Analyse health text with the `discharge` pipeline.
 
 ```bash title="POST /v1/textanalysis/projects/{projectName}/pipelines/{pipelineName}/analyseText" showLineNumbers
-curl -X POST "http://localhost:8080/health-discovery/rest/v1/textanalysis/projects/intern/pipelines/discharge/analyseText?language=de" 
--H "accept: application/json;charset=UTF-8" 
--H "api-token: YOUR-API-TOKEN" 
--H "Content-Type: text/plain" 
+curl -X POST "http://localhost:8080/health-discovery/rest/v1/textanalysis/projects/YOUR-PROJECT/pipelines/discharge/analyseText?language=de" \
+-H "accept: application/json;charset=UTF-8" \
+-H "api-token: YOUR-API-TOKEN" \
+-H "Content-Type: text/plain" \
 -d "Der Patient leidet unter einer Struma diffusa, welche mit Jodid 200µg 1-0-0behandelt wird. Keine Anzeichen auf Bluthochdruck, derzeitiger Blutdruck 120/80."
 ```
 

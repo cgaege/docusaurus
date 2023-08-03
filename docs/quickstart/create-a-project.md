@@ -7,8 +7,7 @@ sidebar_position: 3
 Projects are used to separate data, configurations and users from each other. Create a new project by providing a project `name` and `description` along with your `api-token`. 
 
 ```js title="POST /v1/projects"
-curl -X POST "http://localhost:8080/health-discovery/rest/v1/projects?\
-  description=YOUR-PROJECT-DESCRIPTION&name=YOUR-PROJECT-NAME" \
+curl -X POST "http://localhost:8080/health-discovery/rest/v1/projects?description=YOUR-PROJECT-DESCRIPTION&name=YOUR-PROJECT-NAME" \
   -H "accept: application/json;charset=UTF-8" \
   -H "api-token: YOUR-API-TOKEN"
 ```

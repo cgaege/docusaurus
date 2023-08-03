@@ -33,8 +33,8 @@ Starting a pipeline may take some time. You can use the `GET` method on the pipe
 
 
 ```bash title="GET /v1/textanalysis/project/{projectName}/pipelines/{pipelineName}"
-curl -X GET "http://localhost:8080/health-discovery/rest/v1/textanalysis/projects/YOUR-PROJECT/pipelines/discharge" 
--H "accept: */*" 
+curl -X GET "http://localhost:8080/health-discovery/rest/v1/textanalysis/projects/YOUR-PROJECT/pipelines/discharge" \
+-H "accept: */*" \
 -H "api-token: YOUR-API-TOKEN"
 ```
 
