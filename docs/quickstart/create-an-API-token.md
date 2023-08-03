@@ -5,11 +5,11 @@ sidebar_position: 2
 
 # Create an API token
 
-An API token is required to use the Health Discovery API. You can create you personal API token using your `username` and `password`.
+An API token is required to use the Health Discovery API. You can create an API token for the `admin` user by providing the users `password`.
 
 
 ```bash title="POST /v1/users/{username}/apitoken"
-curl -X POST "http://localhost:8080/health-discovery/rest/v1/users/YOUR-USER/apitoken" \
+curl -X POST "http://localhost:8080/health-discovery/rest/v1/users/admin/apitoken" \
     -H "accept: */*" -H "Content-Type: application/json" \
     -d "{ \"password\": \"YOUR-PASSWORD\", \"userSourceName\": \"\"}"
 ```
