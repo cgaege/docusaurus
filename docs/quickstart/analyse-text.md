@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Analyse health data
+# Analyse health text data
 
 Analyse health text with the `discharge` pipeline.
 
