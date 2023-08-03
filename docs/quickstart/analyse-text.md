@@ -6,8 +6,10 @@ sidebar_position: 5
 
 Analyse health text with the `discharge` pipeline.
 
+Please replace `YOUR-API-TOKEN` with your API token.
+
 ```bash title="POST /v1/textanalysis/projects/{projectName}/pipelines/{pipelineName}/analyseText" showLineNumbers
-curl -X POST "http://localhost:8080/health-discovery/rest/v1/textanalysis/projects/YOUR-PROJECT/pipelines/discharge/analyseText?language=de" \
+curl -X POST "http://localhost:8080/health-discovery/rest/v1/textanalysis/projects/quickstart/pipelines/discharge/analyseText?language=de" \
 -H "accept: application/json;charset=UTF-8" \
 -H "api-token: YOUR-API-TOKEN" \
 -H "Content-Type: text/plain" \

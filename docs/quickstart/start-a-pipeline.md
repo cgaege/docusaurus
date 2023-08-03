@@ -8,8 +8,13 @@ Health Discovery includes various preconfigured NLP pipelines. This quickstart g
 
 
 ## Start the `discharge` pipeline
+
+Start the `discharge` pipeline in the `quickstart` project. The pipeline will be started in background and it will take some time until it is available.
+
+Please replace `YOUR-API-TOKEN` with your API token.
+
 ```bash title="PUT /v1/textanalysis/projects/{projectName}/pipelines/{pipelineName}/start" showLineNumbers
-curl -X PUT "http://localhost:8080/health-discovery/rest/v1/textanalysis/projects/YOUR-PROJECT/pipelines/discharge/start" \
+curl -X PUT "http://localhost:8080/health-discovery/rest/v1/textanalysis/projects/quickstart/pipelines/discharge/start" \
 -H "accept: */*" \
 -H "api-token: YOUR-API-TOKEN"
 ```
@@ -30,10 +35,12 @@ Starting a pipeline may take some time. You can use the `GET` method on the pipe
 
 ## Verify that pipeline is started
 
+The pipeline state indicates whether the pipeline has been started. It can be retrieved with the API call shown below.
 
+Please replace `YOUR-API-TOKEN` with your API token.
 
 ```bash title="GET /v1/textanalysis/project/{projectName}/pipelines/{pipelineName}"
-curl -X GET "http://localhost:8080/health-discovery/rest/v1/textanalysis/projects/YOUR-PROJECT/pipelines/discharge" \
+curl -X GET "http://localhost:8080/health-discovery/rest/v1/textanalysis/projects/quickstart/pipelines/discharge" \
 -H "accept: */*" \
 -H "api-token: YOUR-API-TOKEN"
 ```
@@ -52,4 +59,4 @@ curl -X GET "http://localhost:8080/health-discovery/rest/v1/textanalysis/project
   "errorMessages": []
 }
 ```
- The pipelineState `STARTED` indicates that the pipeline has been started successfully and is now ready to analyse text.
+ The `pipelineState: STARTED` indicates that the pipeline has been started successfully and is now ready to analyse text.

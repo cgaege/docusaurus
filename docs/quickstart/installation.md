@@ -87,9 +87,9 @@ The initial password of the `admin` user is `admin`. Is is highly recommended to
 
 ### Set administrator password
 
-Set a secure password for the `admin` user.
+Set a secure password for the `admin` user by replacing `YOUR-PASSWORD` with your password.
 
-```bash title="PUT /v1/users/{userName}/changeMyPassword"
+```bash title="PUT /v1/users/{userName}/changeMyPassword" showLineNumbers
 curl -X PUT "http://localhost:8080/health-discovery/rest/v1/users/admin/changeMyPassword" \
 -H "accept: */*" \
 -H "Content-Type: application/json" \ 
