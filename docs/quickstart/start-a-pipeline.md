@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Start an NLP Pipeline
+# Start a pipeline
 
 Health Discovery includes various preconfigured NLP pipelines for typical medical use cases. Pipelines are bound to a project.
 

@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Create a Project
+# Create a project
 
 Projects are used to separate data, configurations and users from each other. Create a new project using the API call below and provide a project `name` and `description` along with your `api-token`. 
 

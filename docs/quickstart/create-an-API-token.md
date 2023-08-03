@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 
-# Create an API Token
+# Create an API token
 
 An API token is required to use the Health Discovery API. You can create you personal API token using your `username` and `password`.
 

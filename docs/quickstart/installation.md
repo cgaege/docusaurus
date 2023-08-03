@@ -9,15 +9,16 @@ Installing Health Discovery using Docker is the easiest and fastest way to get s
 
 ## System Requirements
 
-- A current version of Docker
+- A current version of Docker running on AMD64 architecture
 - At least 24GB of RAM
+- At least 20GB of disk space
 
 
 ## Installation Steps
 
 - Login to the Averbis docker registry
 - Download the `docker-compose.yml` file
-- Run Health Discovery
+- Start Health Discovery
 
 
 ### Login to registry.averbis.com
@@ -80,11 +81,13 @@ Wait until all containers have been started before proceeding.
 
 :::tip
 
-The initial password of the admin user is `admin`. Is is highly recommended to set an own secure password.
+The initial password of the `admin` user is `admin`. Is is highly recommended to set an own secure password.
 
 :::
 
 ### Set administrator password
+
+Set a secure password for the `admin` user.
 
 ```bash title="PUT /v1/users/{userName}/changeMyPassword"
 curl -X PUT "http://localhost:8080/health-discovery/rest/v1/users/admin/changeMyPassword" 

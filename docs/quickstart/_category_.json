@@ -1,0 +1,8 @@
+{
+  "label": "Quickstart",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "In this quickstart tutorial, you will install Health Discovery with Docker and analyze health text data using the API. Along the way, you will learn key concepts and techniques that will enable you to ingreate Health Discovery NLP capabilities into your own application."
+  }
+}
