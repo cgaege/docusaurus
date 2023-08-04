@@ -41,8 +41,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/cgaege/docusaurus/tree/main/',
+          // editUrl:
+          //  'https://github.com/cgaege/docusaurus/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -74,15 +74,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Documentation',
+            label: 'Getting Started',
           },
-
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/cgaege/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          }
+          {to: '/blog', label: 'Guides', position: 'left'},
+          {to: '/blog', label: 'Reference', position: 'left'},
+          {to: '/blog', label: 'Releases', position: 'left'}
         ],
       },
       footer: {
