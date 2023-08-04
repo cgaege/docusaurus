@@ -92,18 +92,10 @@ Set a secure password for the `admin` user by replacing `YOUR-PASSWORD` with you
 ```bash title="PUT /v1/users/{userName}/changeMyPassword" showLineNumbers
 curl -X PUT "http://localhost:8080/health-discovery/rest/v1/users/admin/changeMyPassword" \
 -H "accept: */*" \
--H "Content-Type: application/json" \ 
+-H "Content-Type: application/json" \
 -d "{ \"oldPassword\": \"admin\", \"newPassword\": \"YOUR_PASSWORD\"}"
 ```
 
-
-```bash showLineNumbers
-curl -X POST "https://api.eu.averbis.ai/detectCoreMedicalEntities?language=de" \
--H "Content-Type: text/plain" \
--H "x-api-key: YOUR_API_KEY" \
--d "Der Patient leidet unter einer Struma diffusa, welche mit Jodid 200µg 1-0-0
-behandelt wird. Keine Anzeichen auf Bluthochdruck, derzeitiger Blutdruck 120/80."
-```
 
 ```js title=RESPONSE
 {
