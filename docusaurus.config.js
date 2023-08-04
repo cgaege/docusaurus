@@ -76,12 +76,7 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'API',
-          },
+
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'docsVersionDropdown',

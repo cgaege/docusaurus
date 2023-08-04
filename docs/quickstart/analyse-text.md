@@ -16,6 +16,12 @@ curl -X POST "http://localhost:8080/health-discovery/rest/v1/textanalysis/projec
 -d "Der Patient leidet unter einer Struma diffusa, welche mit Jodid 200µg 1-0-0behandelt wird. Keine Anzeichen auf Bluthochdruck, derzeitiger Blutdruck 120/80."
 ```
 
+:::info
+
+Pipeline resources are initalized lazy when the first request is being processed. 
+
+:::
+
 ```js title=RESPONSE
 {
   "payload": [

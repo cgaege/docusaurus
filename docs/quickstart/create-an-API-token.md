@@ -27,3 +27,5 @@ curl -X POST "http://localhost:8080/health-discovery/rest/v1/users/admin/apitoke
 Please make sure to copy your API token now and store it safely. You will not be able to see it again.
 
 :::
+
+Congratulations, you've successfully created an API token.

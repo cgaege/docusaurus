@@ -73,7 +73,7 @@ b6011906ba85   mariadb:10.5                                                    "
 
 :::caution
 
-Wait until all containers have been started before proceeding.
+Wait until all containers have been started and ready `healthy` state before proceeding.
 
 :::
 
