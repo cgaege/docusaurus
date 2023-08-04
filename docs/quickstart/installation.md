@@ -73,7 +73,7 @@ b6011906ba85   mariadb:10.5                                                    "
 
 :::caution
 
-Wait until all containers have been started and ready `healthy` state before proceeding.
+Wait until all containers have been started and reached `healthy` state before proceeding.
 
 :::
 
@@ -93,7 +93,16 @@ Set a secure password for the `admin` user by replacing `YOUR-PASSWORD` with you
 curl -X PUT "http://localhost:8080/health-discovery/rest/v1/users/admin/changeMyPassword" \
 -H "accept: */*" \
 -H "Content-Type: application/json" \ 
--d "{ \"oldPassword\": \"admin\", \"newPassword\": \"YOUR-PASSWORD\"}"
+-d "{ \"oldPassword\": \"admin\", \"newPassword\": \"YOUR_PASSWORD\"}"
+```
+
+
+```bash showLineNumbers
+curl -X POST "https://api.eu.averbis.ai/detectCoreMedicalEntities?language=de" \
+-H "Content-Type: text/plain" \
+-H "x-api-key: YOUR_API_KEY" \
+-d "Der Patient leidet unter einer Struma diffusa, welche mit Jodid 200µg 1-0-0
+behandelt wird. Keine Anzeichen auf Bluthochdruck, derzeitiger Blutdruck 120/80."
 ```
 
 ```js title=RESPONSE
