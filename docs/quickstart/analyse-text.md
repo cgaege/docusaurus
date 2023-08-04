@@ -18,7 +18,7 @@ curl -X POST "http://localhost:8080/health-discovery/rest/v1/textanalysis/projec
 
 :::info
 
-Pipeline resources are initalized lazy when the first request is being processed. 
+The first pipeline request takes a little longer because pipeline resources have to be initialized.
 
 :::
 
