@@ -269,3 +269,5 @@ The first pipeline request takes a little longer because pipeline resources have
   "errorMessages": []
 }
 ```
+
+Congratulations, you have successfully structured your first health text example with Health Discovery.
