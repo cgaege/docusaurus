@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 ## Clean up (Optional)
 
-Delete health discovery docker containers and volumes.
+Execute the following statement to delete all docker containers and volumes that have been created during this quickstart tutorial.
 
 ```bash
 docker compose down -v

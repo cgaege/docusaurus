@@ -40,7 +40,7 @@ Login Succeeded
 
 ### Download the `docker-compose.yml` file
 
-Fetch the latest `docker-compose.yml` file and save it on your disk.
+Fetch the Health Discovery `docker-compose.yml` file.
 
 ```bash
 curl -LO https://raw.githubusercontent.com/cgaege/docusaurus/main/docs/assets/docker-compose.yml
