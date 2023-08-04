@@ -79,20 +79,10 @@ const config = {
 
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            type: 'docsVersionDropdown',
-            position: 'right',
-            dropdownActiveClassDisabled: true,
-          },
-          {
             href: 'https://github.com/cgaege/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
-          {
-            href: 'https://averbis.ai',
-            label: 'Averbis.ai',
-            position: 'right',
-          },
+          }
         ],
       },
       footer: {
