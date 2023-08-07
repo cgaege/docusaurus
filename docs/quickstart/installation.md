@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 
-# Installation
+# Step 1 - Installation
 
 Installing Health Discovery using Docker is the easiest and fastest way to get started.
 

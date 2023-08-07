@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Start a pipeline
+# Step 4 - Start a pipeline
 
 Health Discovery includes various preconfigured NLP pipelines. This quickstart guide will use the `discharge` pipeline that is able to extract medical entities like `diagnoses`, `medications` and `laboratory values` from patient records or discharge letters.
 

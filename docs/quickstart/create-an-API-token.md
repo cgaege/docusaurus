@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 
-# Create an API token
+# Step 2 - Create an API token
 
 In order to use the Health Discovery REST API you need to generate an API token. 
 

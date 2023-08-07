@@ -3,7 +3,7 @@ sidebar_position: 6
 ---
 
 
-# Summary and clean up
+# Step 6 - Summary and clean up
 
 Congratulations! You have succesfully finished the quickstart guide.    
 
