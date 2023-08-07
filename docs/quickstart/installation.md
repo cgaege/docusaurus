@@ -9,7 +9,8 @@ Installing Health Discovery using Docker is the easiest and fastest way to get s
 
 ## System Requirements
 
-- A current version of Docker running on AMD64 architecture
+- A current version of Docker 
+- Linux/amd64 host platform
 - At least 24GB of RAM
 - At least 20GB of disk space
 
