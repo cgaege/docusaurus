@@ -70,7 +70,7 @@ const config = {
         logo: {
           alt: 'Averbis Logo',
           src: 'img/averbis-logo-dark.svg',
-          srcDark: 'img/averbis-logo-dark.svg',
+          srcDark: 'img/averbis-logo.svg',
           height: 40
         },
         items: [
