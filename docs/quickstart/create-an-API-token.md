@@ -11,8 +11,8 @@ Please replace `YOUR-PASSWORD` with your `admin` user password.
 
 ```bash title="POST /v1/users/{username}/apitoken" showLineNumbers
 curl -X POST "http://localhost:8080/health-discovery/rest/v1/users/admin/apitoken" \
-    -H "accept: */*" -H "Content-Type: application/json" \
-    -d "{ \"password\": \"YOUR-PASSWORD\", \"userSourceName\": \"\"}"
+-H "accept: */*" -H "Content-Type: application/json" \
+-d "{ \"password\": \"YOUR-PASSWORD\", \"userSourceName\": \"\"}"
 ```
 
 ```js title=RESPONSE

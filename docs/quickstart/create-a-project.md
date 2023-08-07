@@ -10,8 +10,8 @@ Please replace `YOUR-API-TOKEN` with your API token.
 
 ```js title="POST /v1/projects"
 curl -X POST "http://localhost:8080/health-discovery/rest/v1/projects?description=quickstart-tutorial-project&name=quickstart" \
-  -H "accept: application/json;charset=UTF-8" \
-  -H "api-token: YOUR-API-TOKEN"
+-H "accept: application/json;charset=UTF-8" \
+-H "api-token: YOUR-API-TOKEN"
 ```
 
 ```js title="RESPONSE"
