@@ -16,14 +16,14 @@ Installing Health Discovery using Docker is the easiest and fastest way to get s
 
 ## Installation Steps
 
-- Login to the Averbis docker registry
-- Download the `docker-compose.yml` file
+- Log in to Averbis docker registry
+- Download `docker-compose.yml` file
 - Start Health Discovery
 
 
-### Login to registry.averbis.com
+### Log in to Averbis
 
-Login to the Averbis docker registry using your Averbis credentials to pull Docker images.
+Log in to the Averbis docker registry using your Averbis account credentials to pull the Health Discovery docker images.
 
 ```bash
 docker login registry.averbis.com
