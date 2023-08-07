@@ -95,7 +95,13 @@ curl -X PUT "http://localhost:8080/health-discovery/rest/v1/users/admin/changeMy
 -H "Content-Type: application/json" \
 -d "{ \"oldPassword\": \"admin\", \"newPassword\": \"YOUR_PASSWORD\"}"
 ```
+:::note
 
+Samples for the `curl` command are written for the bash shell. To run this sample in Windows PowerShell or the Command Prompt, you may need to remove the back slashes and write the command as one line such as:
+```cmd
+curl -X PUT "http://localhost:8080/health-discovery/rest/v1/users/admin/changeMyPassword" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"oldPassword\": \"admin\", \"newPassword\": \"YOUR_PASSWORD\"}"
+```
+:::
 
 ```js title=RESPONSE
 {
@@ -103,5 +109,4 @@ curl -X PUT "http://localhost:8080/health-discovery/rest/v1/users/admin/changeMy
   "errorMessages": []
 }
 ```
-
 Congratulations, you have successfully installed and started Health Discovery.
