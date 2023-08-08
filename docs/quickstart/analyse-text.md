@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Step 5 - Analyse health text data
 
-Analyse health text with the `discharge` pipeline.
+You're now ready to analyse health text with the `discharge` pipeline. The pipeline will extract structured medical information from the given text.
 
 Please replace `YOUR-API-TOKEN` with your API token.
 
@@ -18,9 +18,19 @@ curl -X POST "http://localhost:8080/health-discovery/rest/v1/textanalysis/projec
 
 :::info
 
-The first pipeline request takes a little longer because pipeline resources have to be initialized.
+The first request will take a little longer because pipeline resources have to be initialized.
 
 :::
+
+The pipeline takes unstructured plain text as input and returns medical entities such as `Diagnosis` and `Medications` in a JSON response. 
+
+- The response `payload` object contains a list of entities that have been detected in the text.
+- Each entity contains a `begin` and `end` property that specifiy the start and end positions of the entity in the text. 
+- The `type` property specifies the entity type, such as `Diagnosis` or `Medication`.
+- The `coveredText` property stores the text that is covered by the entity.
+- Each entity may have additional type-specific properties as described in the API reference.
+
+
 
 ```js title=RESPONSE
 {
@@ -270,4 +280,4 @@ The first pipeline request takes a little longer because pipeline resources have
 }
 ```
 
-Congratulations, you have successfully structured your first health text example with Health Discovery.
+Congratulations, you have successfully analysed your first health text example with Health Discovery.
