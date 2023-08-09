@@ -24,9 +24,7 @@ The use of electronic patient data has a lasting impact on medical research. Rou
 With the introduction of Diagnoses Related Groups (DRGs), the coding and billing of medical and nursing services has changed significantly. The documentation and coding of medical and nursing services is complex and prone to errors. At the same time, this is a very repetitive and time-consuming process since many patients with the same diagnoses are coded in the same way several times a year. With Health Discovery, missing codes and documentation gaps can be identified quickly and accurately. It enables an automated search for diagnoses and procedures and provides corresponding documents in the texts. You no longer have to manually process large amounts of clinical data and can concentrate on the essentials of your work.
 
 ## Next steps
-``` bash
-docker image ls
-```
 
 - Read about installing Health Discovery
 - Get hands-on experience with the [Quickstart](./quickstart/installation.md) tutorial
+- API Reference
