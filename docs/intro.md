@@ -25,6 +25,5 @@ With the introduction of Diagnoses Related Groups (DRGs), the coding and billing
 
 ## Next steps
 
-- Read about installing Health Discovery
-- Get hands-on experience with the [Quickstart](./quickstart/installation.md) tutorial
-- API Reference
+- Get hands-on experience with the [quickstart tutorial](./category/quickstart/)
+- Check out the [API reference](./category/reference)
