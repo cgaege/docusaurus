@@ -28,5 +28,4 @@ docker compose down -v
 
 We recommend continuing learning about Health Discovery using the following resources:
 
-- **API reference**
-- Preconfigured NLP pipelines
+- Check out the [API reference](../category/reference)

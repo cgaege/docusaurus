@@ -8,7 +8,7 @@ sidebar_position: 5
 
 ## Example
 
-```js title="THE ATCCODE OBJECT"
+```js title="THE DOSEFORM OBJECT"
 {
   "begin": 16,
   "end": 22,
@@ -34,9 +34,19 @@ sidebar_position: 5
     </tr>
   </thead>
   <tbody>
-    <tr>
+     <tr>
       <td><b>dictCanon</b></td>
-      <td>Preferred term of ATC code</td>
+      <td>Preferred term of the dose form</td>
+      <td>String</td>
+    </tr>
+     <tr>
+      <td><b>matchedTerm</b></td>
+      <td>Matching synonym of the dose form</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td><b>uniqueID</b></td>
+      <td>Unique identifier of the dose form of the format <code>terminologyId:conceptID</code></td>
       <td>String</td>
     </tr>
     <tr>
@@ -44,9 +54,14 @@ sidebar_position: 5
       <td>The concept Id</td>
       <td>String</td>
     </tr>
-     <tr>
+    <tr>
       <td><b>source</b></td>
       <td>The name of the terminology source</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td><b>negatedBy</b></td>
+      <td>Specifies the negation word, if one exists</td>
       <td>String</td>
     </tr>
   
@@ -58,9 +73,24 @@ sidebar_position: 5
 ### dictCanon 
 Type: `String`
 
-Preferred term of ATC code
+Preferred term of the dose form.
 
 ---
+
+### matchedTerm
+Type: `String`
+
+Matching synonym of the dose form.
+
+---
+
+### uniqueID
+Type: `String`
+
+Unique identifier of the dose form of the format `terminologyId:conceptID`.
+
+---
+
 
 ### conceptID
 Type: `String`
@@ -72,7 +102,14 @@ The concept Id
 ### source
 Type: `String`
 
-The name of the terminology source
+The name of the terminology source.
+
+---
+
+### negatedBy
+Type: `String`
+
+Specifies the negation word, if one exists.
 
 
 

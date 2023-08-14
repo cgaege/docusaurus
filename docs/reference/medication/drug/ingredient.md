@@ -101,7 +101,7 @@ The concept Id
 ### source
 Type: `String`
 
-The name of the terminology source.#
+The name of the terminology source.
 
 ---
 

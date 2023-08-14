@@ -232,29 +232,35 @@ Type: [`ATCCode[]`](./atcCode.md)
 
 The ATC classification is an official classification for pharmacological substances.
 
+---
 
 ### drugs
 Type: [`Drug[]`](./drug/)
 
 The matching synonym of the Diagnosis.
 
+---
 
 ### doseFrequency
-Type: `DoseFrequency`
+Type: [`DoseFrequency`](./doseFrequency.md)
 
 Dose frequency of the actual medication. Possible forms are a general `DoseFrequency` or the more detailed `DayTimeDoseFrequency`, `WeekDayDoseFrequency`, `TimeMeasurementDoseFrequency` etc.
+
+---
 
 ### doseForm
 Type: [`DoseForm`](./doseForm.md)
 
 Dose form of the actual medication.
 
+---
 
 ### dosage
 Type: `Dosage`
 
 Dosage of the actual medication (e.g. 20 ml/hr).
 
+---
 
 ### date
 Type: `Date` or `DateInterval`
@@ -262,18 +268,21 @@ Type: `Date` or `DateInterval`
 Temporal information about the actual medication.
 Format: `YYYY-MM-DD`. Year-Month-Day with leading zeros (e.g. 2020-02-17)
 
+---
 
 ### administrations
 Type: `Administration[]`
 
 The routes of administration of this medication.
 
+---
 
 ### rateQuantity
 Type: `Double`
 
 Amount of medication per unit of time, e.g., 2 doses.
 
+---
 
 ### status
 Type: `String`
@@ -282,12 +291,14 @@ Status of the medication.
 
 Possible values (default is underlined): <ins>`null`</ins>  |  `UNKNOWN` | `NEGATED` | `CONSIDERED` | `INTENDED` |  `INACTIVE`
 
+---
 
 ### brandName
 Type: `String`
 
 The specific brand name of a drug given by the producing company.
 
+---
 
 ### category
 Type: `String`
@@ -295,7 +306,7 @@ Type: `String`
 Category of the medication.
 Possible values (default is underlined):  <ins>`null`</ins> | `ADMISSION` | `DISCHARGE` | `ALLERGY` | `INPATIENT` | `FAMILY` | `CONDITIONING_TREATMENT`
 
-
+---
 
 ### termTypes
 Type: `TTY[]`
