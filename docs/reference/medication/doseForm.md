@@ -1,22 +1,27 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 ---
 
-# ATCCode
+# DoseForm
 
-`de.averbis.types.health.ATCCode`
+` de.averbis.types.health.DoseForm`
 
 ## Example
 
-Example text: `suspected history of appendicitis`
-
-```js title="THE TEMPLATE OBJECT"
+```js title="THE ATCCODE OBJECT"
 {
-  "begin": 10,
-  "end": 33,
-  "type": "de.averbis.types.health.Template",
-  "coveredText": "history of appendicitis"
-}
+  "begin": 16,
+  "end": 22,
+  "type": "de.averbis.types.health.DoseForm",
+  "coveredText": "tablet",
+  "id": 2168,
+  "negatedBy": null,
+  "matchedTerm": "Tablets",
+  "dictCanon": "Tablet dose form (qualifier value)",
+  "conceptID": "SCT385055001",
+  "source": "AverbisDoseForm_1.0",
+  "uniqueID": "AverbisDoseForm_1.0:SCT385055001"
+  }
 ```
 
 ## Properties
@@ -55,11 +60,14 @@ Type: `String`
 
 Preferred term of ATC code
 
+---
 
 ### conceptID
 Type: `String`
 
 The concept Id
+
+---
 
 ### source
 Type: `String`

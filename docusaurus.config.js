@@ -80,8 +80,7 @@ const config = {
             position: 'left',
             label: 'Getting Started',
           },
-          {to: '/blog', label: 'Guides', position: 'left'},
-          {to: '/blog', label: 'Reference', position: 'left'},
+          {to: '/docs/category/reference', label: 'Reference', position: 'left'},
           {to: '/blog', label: 'Releases', position: 'left'}
         ],
       },

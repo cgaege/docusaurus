@@ -53,6 +53,7 @@ Type: `String`
 
 Preferred term of the condition.
 
+---
 
 ### matchedTerm
 Type: `String`

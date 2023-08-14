@@ -131,29 +131,36 @@ Type: `String`
 
 Preferred term of the condition.
 
+---
 
 ### matchedTerm
 Type: `String`
 
 The matching synonym of the Diagnosis.
 
+---
 
 ### uniqueID
 Type: `String`
 
 Unique identifier of a concept of the format `terminologyId:conceptID`
 
+---
 
 ### conceptID
 Type: `String`
 
 The ID of the concept.
 
+---
 
 ### source
 Type: `String`
 
 The name of the terminology source
+
+
+---
 
 ### approach 
 Type: `String`
@@ -162,26 +169,41 @@ Information about the text mining approach used to generate the annotation.
 
 Possible values: <code><u>DictionaryLookup</u></code> | <code>SimilarityMatching</code> | <code>DocumentClassification</code> | <code>DerivedByLabValue</code>
 
+---
 
 ### confidence
 Type: `Double`
 
 For approaches using machine learning (e.g. `DocumentClassification`), the confidence is calculated that the respective annotation has been correctly generated.
 Possible value range: 0-1
-Note: Annotations generated with non-machine learning approaches such as terminology mappings (approach = `DictionaryLookup`) are reflected with a confidence value of 0.
 
+:::note
+Annotations generated with non-machine learning approaches such as `DictionaryLookup` are reflected with a confidence value of `0`.
+:::
+
+---
 
 ### onsetDate
 Type: `String`
 
 The onset date of the diagnosis, if given in the text.
 Format: `YYYY-MM-DD`. Year-Month-Day with leading zeros (e.g. 2020-02-17)
-Please note: The onsetDate is only annotated if the pear component `Disease Onset Date` is integrated in the text analysis pipeline used. The preconfigured pipelines do not contain this component, thus the value of the onset feature is represented as null.
+
+:::info
+
+The onsetDate is only annotated if the pear component `Disease Onset Date` is integrated in the text analysis pipeline used. The preconfigured pipelines do not contain this component, thus the value of the onset feature is represented as `null`.
+
+:::
+
+---
 
 ### negatedBy
 Type: `String`
 
 Specifies the negation word, if one exists.
+
+
+---
 
 ### verificationStatus
 Type: `String`
@@ -190,12 +212,17 @@ Verification status of the actual diagnosis.
 
 Possible values (default is underlined): <ins>`null`</ins> | `NEGATED` | `ASSURED` | `SUSPECTED` | `DIFFERENTIAL`
 
+---
+
+
 ### clinicalStatus
 Type: `String`
 
 Clinical status of the actual diagnosis.
 
 Possible values (default is underlined): <ins>`null`</ins> | `RESOLVED` | `CHRONIC`
+
+---
 
 ### kind
 Type: `String`
@@ -204,12 +231,17 @@ The kind of the diagnosis.
 
 Possible values (default is underlined): <ins>`null`</ins> | `main` | `secondary`
 
+---
+
+
 ### laterality
 Type: `String`
 
 The laterality of the diagnosis.
 
 Possible values (default is underlined): <ins>`null`</ins> | `RIGHT` | `LEFT` | `BOTH`
+
+---
 
 ### belongsTo
 Type: `String`

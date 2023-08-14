@@ -1,0 +1,8 @@
+{
+  "label": "Drug",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "drug"
+  }
+}
