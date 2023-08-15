@@ -28,7 +28,7 @@ The pipeline takes unstructured plain text as input and returns medical entities
 - Each entity contains a `begin` and `end` property that specifiy the start and end positions of the entity in the text. 
 - The `type` property specifies the entity type, such as `Diagnosis` or `Medication`.
 - The `coveredText` property stores the text that is covered by the entity.
-- Each entity may have additional type-specific properties as described in the API reference.
+- Each entity may have additional type-specific properties as described in the [API reference](../category/reference).
 
 
 
