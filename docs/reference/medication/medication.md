@@ -228,42 +228,42 @@ Example text: `Lisinopril 5 MG tablet Take 5 mg by mouth daily.`
 
 
 ### atcCodes 
-Type: [`ATCCode[]`](./atcCode.md)
+Type: [`ATCCode[]`](./atcCode)
 
 The ATC classification is an official classification for pharmacological substances.
 
 ---
 
 ### drugs
-Type: [`Drug[]`](./drug/)
+Type: [`Drug[]`](./drug)
 
 The matching synonym of the Diagnosis.
 
 ---
 
 ### doseFrequency
-Type: [`DoseFrequency`](./doseFrequency.md)
+Type: [`DoseFrequency`](./doseFrequency)
 
 Dose frequency of the actual medication. Possible forms are a general `DoseFrequency` or the more detailed `DayTimeDoseFrequency`, `WeekDayDoseFrequency`, `TimeMeasurementDoseFrequency` etc.
 
 ---
 
 ### doseForm
-Type: [`DoseForm`](./doseForm.md)
+Type: [`DoseForm`](./doseForm)
 
 Dose form of the actual medication.
 
 ---
 
 ### dosage
-Type: [`Dosage`](./dosage.md)
+Type: [`Dosage`](./dosage)
 
 Dosage of the actual medication (e.g. 20 ml/hr).
 
 ---
 
 ### date
-Type: [`Date`](./date.md) or [`DateInterval`](./dateInterval.md)
+Type: [`Date`](./date) or [`DateInterval`](./dateInterval)
 
 Temporal information about the actual medication.
 Format: `YYYY-MM-DD`. Year-Month-Day with leading zeros (e.g. 2020-02-17)
@@ -309,6 +309,6 @@ Possible values (default is underlined):  <ins>`null`</ins> | `ADMISSION` | `DIS
 ---
 
 ### termTypes
-Type: [`TTY[]`](./tty.md)
+Type: [`TTY[]`](./tty)
 
 Additional information on clinical drug, e.g. semantic clinical drug (RxNorm TermType).
