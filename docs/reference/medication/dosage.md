@@ -1,25 +1,20 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
-# DoseForm
+# Dosage
 
-` de.averbis.types.health.DoseForm`
+`de.averbis.types.health.Dosage`
 
 ## Example
 
-```js title="THE DOSEFORM OBJECT"
-{
-  "begin": 16,
-  "end": 22,
-  "type": "de.averbis.types.health.DoseForm",
-  "coveredText": "tablet",
-  "id": 2168,
-  "negatedBy": null,
-  "matchedTerm": "Tablets",
-  "dictCanon": "Tablet dose form (qualifier value)",
-  "conceptID": "SCT385055001",
-  "source": "AverbisDoseForm_1.0",
+```js title="THE DOSAGE OBJECT"
+ {
+  "begin": 11,
+  "end": 15,
+  "type": "de.averbis.types.health.Dosage",
+  "coveredText": "5 MG",
+  "id": 2165
 }
 ```
 

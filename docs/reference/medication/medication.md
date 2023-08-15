@@ -256,14 +256,14 @@ Dose form of the actual medication.
 ---
 
 ### dosage
-Type: `Dosage`
+Type: [`Dosage`](./dosage.md)
 
 Dosage of the actual medication (e.g. 20 ml/hr).
 
 ---
 
 ### date
-Type: `Date` or `DateInterval`
+Type: [`Date`](./date.md) or [`DateInterval`](./dateInterval.md)
 
 Temporal information about the actual medication.
 Format: `YYYY-MM-DD`. Year-Month-Day with leading zeros (e.g. 2020-02-17)
