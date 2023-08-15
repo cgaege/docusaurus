@@ -195,7 +195,7 @@ Example text: `Lisinopril 5 MG tablet Take 5 mg by mouth daily.`
     <tr>
       <td><b>administrations</b></td>
       <td>The routes of administration of this medication.</td>
-      <td>Administration</td>
+      <td>String</td>
     </tr>
     <tr>
       <td><b>rateQuantity</b></td>
@@ -271,7 +271,7 @@ Format: `YYYY-MM-DD`. Year-Month-Day with leading zeros (e.g. 2020-02-17)
 ---
 
 ### administrations
-Type: `Administration[]`
+Type: `String[]`
 
 The routes of administration of this medication.
 
@@ -309,6 +309,6 @@ Possible values (default is underlined):  <ins>`null`</ins> | `ADMISSION` | `DIS
 ---
 
 ### termTypes
-Type: `TTY[]`
+Type: [`TTY[]`](./tty.md)
 
 Additional information on clinical drug, e.g. semantic clinical drug (RxNorm TermType).
