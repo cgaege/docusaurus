@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Unleash the Potential of Health Data',
-  tagline: 'Extract relevant information and gain insights with Healthcare NLP',
+  title: 'Documentation',
+  tagline: 'Explore our guides and examples to integrate Health Discovery',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
