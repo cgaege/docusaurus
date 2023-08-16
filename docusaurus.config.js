@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentation',
+  title: 'Developer documentation_',
   tagline: 'Explore our guides and examples to integrate Health Discovery',
   favicon: 'img/favicon.ico',
 

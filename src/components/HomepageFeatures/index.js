@@ -4,8 +4,8 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Pretrained Models for Healthcare',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Pretrained AI Models for Healthcare',
+    Svg: require('@site/static/img/undraw_around_the_world.svg').default,
     description: (
       <>
         Extract medical entities like diagnoses, medications and laboratory values from unstructured health text.
@@ -13,22 +13,20 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Turn Medical Data Into Meaningful Insights',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Turn Medical Data Into Insights',
+    Svg: require('@site/static/img/undraw_version_control.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Bridge the gap between unstructured electronic health records and a highly structured data repository for advanced analytics.
       </>
     ),
   },
   {
-    title: 'HL7 FHIR Ready',
+    title: 'Seamless Integration',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Easy-to-use, well-documented API based on FHIR to integrate healthcare NLP into your apps.
       </>
     ),
   },
