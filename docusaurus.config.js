@@ -86,6 +86,54 @@ const config = {
       },
       footer: {
         style: 'dark',
+        logo: {
+          alt: 'Averbis Logo',
+          src: 'img/averbis-logo.svg',
+          href: 'https://averbis.com',
+          width: 160,
+          height: 51,
+        },
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Quickstart Tutorial',
+                to: '/docs/category/quickstart',
+              },
+              {
+                label: 'API Reference',
+                to: '/docs/category/reference',
+              },
+            ],
+          },
+          {
+            title: 'Company',
+            items: [
+              {
+                label: 'Averbis',
+                href: 'https://averbis.ai',
+              },
+              {
+                label: 'Blog',
+                href: 'https://averbis.com/averbis-blog/',
+              }
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Releases',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/averbis',
+              },
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} Averbis GmbH`,
       },
       prism: {
