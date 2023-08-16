@@ -4,20 +4,20 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Pretrained AI Models for Healthcare',
+    title: 'Quickstart Tutorial',
     Svg: require('@site/static/img/undraw_around_the_world.svg').default,
     description: (
       <>
-        Extract medical entities like diagnoses, medications and laboratory values from unstructured health text.
+        In this quickstart tutorial you will become familiar with the core concepts of health discovery and learn how to use the API.
       </>
     ),
   },
   {
-    title: 'Turn Medical Data Into Insights',
+    title: 'API Reference',
     Svg: require('@site/static/img/undraw_version_control.svg').default,
     description: (
       <>
-        Bridge the gap between unstructured electronic health records and a highly structured data repository for advanced analytics.
+        Complete reference documentation for the health discovery API including type definitions and examples.
       </>
     ),
   },
