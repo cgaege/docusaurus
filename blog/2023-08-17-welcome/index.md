@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Health Discovery 6.20
-authors: [theresa.klumpp, christian.gaege]
+authors: []
 tags: [health discovery, NLP, releases]
 ---
 
