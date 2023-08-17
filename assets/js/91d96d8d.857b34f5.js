@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[1824],{4530:s=>{s.exports=JSON.parse('{"label":"NLP","permalink":"/docusaurus/blog/tags/nlp","allTagsPath":"/docusaurus/blog/tags","count":2}')}}]);
