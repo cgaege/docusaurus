@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://cgaege.github.io/docusaurus/blog</id>
+    <id>https://help-dev.averbis.com/health-discovery/blog</id>
     <title>Developer documentation_ Blog</title>
     <updated>2023-08-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://cgaege.github.io/docusaurus/blog"/>
+    <link rel="alternate" href="https://help-dev.averbis.com/health-discovery/blog"/>
     <subtitle>Developer documentation_ Blog</subtitle>
-    <icon>https://cgaege.github.io/docusaurus/img/favicon.ico</icon>
+    <icon>https://help-dev.averbis.com/health-discovery/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Health Discovery 6.20]]></title>
-        <id>https://cgaege.github.io/docusaurus/blog/welcome</id>
-        <link href="https://cgaege.github.io/docusaurus/blog/welcome"/>
+        <id>https://help-dev.averbis.com/health-discovery/blog/welcome</id>
+        <link href="https://help-dev.averbis.com/health-discovery/blog/welcome"/>
         <updated>2023-08-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We're excited to present health discovery version 6.20.]]></summary>
         <content type="html"><![CDATA[<p>We're excited to present health discovery version 6.20.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="highlights">Highlights<a href="#highlights" class="hash-link" aria-label="Direct link to Highlights" title="Direct link to Highlights">​</a></h4><ul><li>Improved COVID-19 Disambiguation in German</li><li>Improved Negation Detection in German and English</li><li>Terminology Improvements for <code>Anatomies</code>, <code>Diagnoses</code>, <code>LaboratoryValues</code> and <code>Medications</code></li></ul>]]></content>
@@ -24,8 +24,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Health Discovery 6.19]]></title>
-        <id>https://cgaege.github.io/docusaurus/blog/2023/07/12/hd-6.19.0</id>
-        <link href="https://cgaege.github.io/docusaurus/blog/2023/07/12/hd-6.19.0"/>
+        <id>https://help-dev.averbis.com/health-discovery/blog/2023/07/12/hd-6.19.0</id>
+        <link href="https://help-dev.averbis.com/health-discovery/blog/2023/07/12/hd-6.19.0"/>
         <updated>2023-07-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We're excited to present health discovery version 6.19.]]></summary>
         <content type="html"><![CDATA[<p>We're excited to present health discovery version 6.19.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="highlights">Highlights<a href="#highlights" class="hash-link" aria-label="Direct link to Highlights" title="Direct link to Highlights">​</a></h4><ul><li>Updated medication terminology to <code>ABDAmed July 2023</code></li></ul>]]></content>
@@ -39,8 +39,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Health Discovery 6.18]]></title>
-        <id>https://cgaege.github.io/docusaurus/blog/2023/06/13/hd-6.18.0</id>
-        <link href="https://cgaege.github.io/docusaurus/blog/2023/06/13/hd-6.18.0"/>
+        <id>https://help-dev.averbis.com/health-discovery/blog/2023/06/13/hd-6.18.0</id>
+        <link href="https://help-dev.averbis.com/health-discovery/blog/2023/06/13/hd-6.18.0"/>
         <updated>2023-06-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We're excited to present health discovery version 6.18.]]></summary>
         <content type="html"><![CDATA[<p>We're excited to present health discovery version 6.18.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="highlights">Highlights<a href="#highlights" class="hash-link" aria-label="Direct link to Highlights" title="Direct link to Highlights">​</a></h4><ul><li>New RxNorm term type <code>Brandname</code> for medications</li><li>Improved <code>Diagnosis</code> disambiguation for expanded abbreviations (EN/DE)</li><li>Terminology updates for medications <code>Abdamed June 2023</code> and <code>RxNorm June 2023</code></li><li>Extended <code>Diagnosis</code> disambiguation models for pregnancy (EN)</li></ul>]]></content>
