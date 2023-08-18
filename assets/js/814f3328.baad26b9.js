@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Releases","items":[{"title":"Health Discovery 6.20","permalink":"/docusaurus/blog/welcome"},{"title":"Health Discovery 6.19","permalink":"/docusaurus/blog/2023/07/12/hd-6.19.0"}]}')}}]);

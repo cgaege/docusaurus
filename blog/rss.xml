@@ -30,5 +30,16 @@
             <category>NLP</category>
             <category>releases</category>
         </item>
+        <item>
+            <title><![CDATA[Health Discovery 6.18]]></title>
+            <link>https://cgaege.github.io/docusaurus/blog/2023/06/13/hd-6.18.0</link>
+            <guid>https://cgaege.github.io/docusaurus/blog/2023/06/13/hd-6.18.0</guid>
+            <pubDate>Tue, 13 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're excited to present health discovery version 6.18.]]></description>
+            <content:encoded><![CDATA[<p>We're excited to present health discovery version 6.18.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="highlights">Highlights<a href="#highlights" class="hash-link" aria-label="Direct link to Highlights" title="Direct link to Highlights">​</a></h4><ul><li>New RxNorm term type <code>Brandname</code> for medications</li><li>Improved <code>Diagnosis</code> disambiguation for expanded abbreviations (EN/DE)</li><li>Terminology updates for medications <code>Abdamed June 2023</code> and <code>RxNorm June 2023</code></li><li>Extended <code>Diagnosis</code> disambiguation models for pregnancy (EN)</li></ul>]]></content:encoded>
+            <category>health discovery</category>
+            <category>NLP</category>
+            <category>releases</category>
+        </item>
     </channel>
 </rss>

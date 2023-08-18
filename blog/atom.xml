@@ -14,6 +14,10 @@
         <updated>2023-08-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We're excited to present health discovery version 6.20.]]></summary>
         <content type="html"><![CDATA[<p>We're excited to present health discovery version 6.20.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="highlights">Highlights<a href="#highlights" class="hash-link" aria-label="Direct link to Highlights" title="Direct link to Highlights">​</a></h4><ul><li>Improved COVID-19 Disambiguation in German</li><li>Improved Negation Detection in German and English</li><li>Terminology Improvements for <code>Anatomies</code>, <code>Diagnoses</code>, <code>LaboratoryValues</code> and <code>Medications</code></li></ul>]]></content>
+        <author>
+            <name>Viorel Morari</name>
+            <uri>https://github.com/viorell91</uri>
+        </author>
         <category label="health discovery" term="health discovery"/>
         <category label="NLP" term="NLP"/>
         <category label="releases" term="releases"/>
@@ -25,6 +29,25 @@
         <updated>2023-07-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We're excited to present health discovery version 6.19.]]></summary>
         <content type="html"><![CDATA[<p>We're excited to present health discovery version 6.19.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="highlights">Highlights<a href="#highlights" class="hash-link" aria-label="Direct link to Highlights" title="Direct link to Highlights">​</a></h4><ul><li>Updated medication terminology to <code>ABDAmed July 2023</code></li></ul>]]></content>
+        <author>
+            <name>Viorel Morari</name>
+            <uri>https://github.com/viorell91</uri>
+        </author>
+        <category label="health discovery" term="health discovery"/>
+        <category label="NLP" term="NLP"/>
+        <category label="releases" term="releases"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Health Discovery 6.18]]></title>
+        <id>https://cgaege.github.io/docusaurus/blog/2023/06/13/hd-6.18.0</id>
+        <link href="https://cgaege.github.io/docusaurus/blog/2023/06/13/hd-6.18.0"/>
+        <updated>2023-06-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We're excited to present health discovery version 6.18.]]></summary>
+        <content type="html"><![CDATA[<p>We're excited to present health discovery version 6.18.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="highlights">Highlights<a href="#highlights" class="hash-link" aria-label="Direct link to Highlights" title="Direct link to Highlights">​</a></h4><ul><li>New RxNorm term type <code>Brandname</code> for medications</li><li>Improved <code>Diagnosis</code> disambiguation for expanded abbreviations (EN/DE)</li><li>Terminology updates for medications <code>Abdamed June 2023</code> and <code>RxNorm June 2023</code></li><li>Extended <code>Diagnosis</code> disambiguation models for pregnancy (EN)</li></ul>]]></content>
+        <author>
+            <name>Christian Gaege</name>
+            <uri>https://github.com/cgaege</uri>
+        </author>
         <category label="health discovery" term="health discovery"/>
         <category label="NLP" term="NLP"/>
         <category label="releases" term="releases"/>
