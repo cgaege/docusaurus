@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Health Discovery 6.20
-authors: []
+authors: [viorel.morari]
 tags: [health discovery, NLP, releases]
 ---
 
