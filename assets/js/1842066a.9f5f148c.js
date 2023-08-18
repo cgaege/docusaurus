@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[3870],{3659:s=>{s.exports=JSON.parse('{"label":"releases","permalink":"/health-discovery/blog/tags/releases","allTagsPath":"/health-discovery/blog/tags","count":3}')}}]);
