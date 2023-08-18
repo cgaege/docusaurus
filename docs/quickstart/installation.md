@@ -39,14 +39,13 @@ Password: ***********
 Login Succeeded
 ```
 
-### Download the `docker-compose.yml` file
+### Download the docker compose file
 
 Fetch the Health Discovery `docker-compose.yml` file.
 
 ```bash
-curl -LO https://raw.githubusercontent.com/cgaege/docusaurus/main/docs/assets/docker-compose.yml
+curl -LO https://help.averbis.com/health-discovery/docker-compose.yml
 ```
-
 
 ### Start Health Discovery
 
@@ -64,7 +63,7 @@ docker ps
 
 ```bash title=Output
 CONTAINER ID   IMAGE                                                           COMMAND                  CREATED          STATUS                             PORTS                                                             NAMES
-c9d1faac859b   registry.averbis.com/health-discovery/health-discovery:6.19.0   "./health-discovery.…"   45 seconds ago   Up 44 seconds (health: starting)   1099/tcp, 8101/tcp, 8181/tcp, 44444/tcp, 0.0.0.0:8080->8080/tcp   downloads-health-discovery-hd-1
+c9d1faac859b   registry.averbis.com/health-discovery/health-discovery:6.20.0   "./health-discovery.…"   45 seconds ago   Up 44 seconds (health: starting)   1099/tcp, 8101/tcp, 8181/tcp, 44444/tcp, 0.0.0.0:8080->8080/tcp   downloads-health-discovery-hd-1
 6e91555e6d16   registry.averbis.com/gcm/gcm:7.6.0                              "karaf run"              7 days ago       Up 45 seconds (health: starting)   1099/tcp, 8101/tcp, 8181/tcp, 44444/tcp                           downloads-gcm-1
 b6011906ba85   mariadb:10.5                                                    "docker-entrypoint.s…"   7 days ago       Up 44 seconds                      3306/tcp                                                          downloads-database-1
 54b2f3eaf00d   registry.averbis.com/solr/solr:7.6.0                            "./platform-solr.sh"     7 days ago       Up 45 seconds (healthy)            8983/tcp                                                          downloads-solr-1
